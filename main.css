@@ -2,6 +2,47 @@
     margin: 0;
 }
 
-header{
-    min-height: 20%;
+nav{
+    height: 10vh;
+    background-color: red;
+}
+
+h2{
+    width: 85%;
+    margin: auto;
+    padding: 2%;
+    color: white;
+}
+
+.salem{
+    width: 85%;
+    margin: auto;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr );
+    padding: 3%;
+   
+}
+
+.icon span h3{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 2% 3%;
+}
+
+#history{
+    padding: 2%;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin-left: 82%;
+}
+
+.language{
+    margin: auto;
+    width: 80%;
+    background-color: #ccc;
+    height: 8vh;
 }
