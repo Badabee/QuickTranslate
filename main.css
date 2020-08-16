@@ -26,18 +26,20 @@ h2{
    
 }
 
-.icon span button{
+.icon span button, #history{
     display: inline-block;
-    border: 2px solid red;
+    border: none;
+    background-color: #6050dc;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
     border-radius: 10px;
-    padding: 2% 3%;
+    padding: 2% 5%;
 }
 
 #history{
-    padding: 2%;
-    border: 2px solid red;
-    border-radius: 10px;
-    margin-left: 82%;
+    margin-left: 81%;
 }
 
 .language{
