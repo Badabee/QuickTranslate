@@ -4,7 +4,7 @@
 
 nav{
     height: 10vh;
-    background-color: #6050dc;
+    background-color: #7a83db;
 }
 
 h2{
@@ -28,7 +28,7 @@ h2{
 .icon span button, #history{
     display: inline-block;
     border: none;
-    background-color: #6050dc;
+    background-color: #7a83db;
     color: white;
     cursor: pointer;
     font-size: 15px;
@@ -44,7 +44,7 @@ h2{
 .language{
     margin: auto;
     width: 80%;
-    background-color: #ccc;
+    background-color: #c1c1c1;
     height: 8vh;
     border-radius: 10px;
 }
@@ -70,7 +70,7 @@ h2{
     grid-column: 1/3;
     grid-row: 1/2;
     border-bottom-left-radius: 10px;
-    background-color: #ccc;
+    background-color: #ededed;
 }
 
 .item2 {
@@ -78,7 +78,7 @@ h2{
     grid-row:  1/3;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    background-color: #6050dc;
+    background-color: #7a83db;
 }
 
 .item3 {
@@ -86,7 +86,7 @@ h2{
     grid-row: 2/4;
     border-radius: 10px;
     margin: 5% 5% 0 0;
-    background-color: #ccc;
+    background-color: #ededed;
 }
 
 .item4 {
@@ -94,7 +94,7 @@ h2{
     grid-row: 3/4;
     margin-top: 5%;
     border-radius: 10px;
-    background-color: #ccc;
+    background-color: #ededed;
 }
 
 /*MEDIA QUERIES*/
