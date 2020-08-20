@@ -65,9 +65,18 @@ h2{
     height: 80%;
 }
 
+#awesome{
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+span form {
+    display: inline-block;
+}
+
 #texter{
     width: 80%;
-    height: 60%;
+    height: 50%;
     font-size: 20px;
     border: 2px solid red;
     background-color: #ededed;
