@@ -65,29 +65,48 @@ h2{
     height: 80%;
 }
 
+#awesome{
+    cursor: pointer;
+}
+
+span form {
+    display: inline-block;
+    width: 70%;
+    margin-right: 0;
+}
+
 #texter{
-    padding: 12% 120px;
-    margin-bottom: 0%;
+    resize: none;
+    position: absolute;
+    font-size: 20px;
     border: 2px solid red;
     background-color: #ededed;
 }
 
+.grow{
+    width: 80%;
+    height: 80%;
+   
+    position: relative;
+   
+}
+
 .item1 {
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 1/2;
     border-bottom-left-radius: 10px;
     background-color: #ededed;
 }
 
 .item2 {
-    grid-column: 2/5;
+    grid-column: 3/8;
     grid-row:  1/3;
     border-bottom-left-radius: 10px;
     background-color: #7a83db;
 }
 
 .item3 {
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 2/4;
     border-radius: 10px;
     margin: 5% 5% 0 0;
@@ -95,7 +114,7 @@ h2{
 }
 
 .item4 {
-    grid-column: 2/5;
+    grid-column: 3/6;
     grid-row: 3/4;
     margin-top: 5%;
     border-radius: 10px;
@@ -144,7 +163,7 @@ h2{
     }
 
     #texter{
-        padding: 12% 60px;
+        padding: 6% 60px;
     }
 
     .item1 {
