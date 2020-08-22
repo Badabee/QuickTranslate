@@ -204,10 +204,30 @@ span select {
     .box{
         display: grid;
         grid-gap: 2%;
+        width: 80%;
     }
 
     #texter{
-        padding: 6% 60px;
+        padding: 6% 40px;
+        border: 2px solid red;
+    }
+
+    .lang1 h3{
+        font-size: 15px;
+    }
+
+    #selectA{
+        margin-left: -20%;
+        margin-top: 5%;
+    }
+    
+    #selectB{
+        margin-top: -60%;
+        margin-left: 40%;
+    }
+
+    span select {
+        padding: 10px;
     }
 
     .item1 {
