@@ -9,11 +9,9 @@ const key = "AIzaSyDp27j-6ch9gnZVY6-4GwbvzLn-5TjqYEQ";
 //SELECT DROPDOWN
 function langList (languages) { 
     languages.forEach(language => {
-        let option = document.createElement('option');
-        option.value =language.language;
-        option.textContent = language.name;
-        sourceLangElem.appendChild(option);
-        targetLangElem.appendChild(option);
+        const option = `<option value=${language.language}>${language.name}</option>`
+        sourceLangElem.innerHTML += option;
+        targetLangElem.innerHTML += option;
     })
 
 }
