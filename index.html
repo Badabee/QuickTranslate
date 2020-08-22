@@ -29,14 +29,27 @@
 
     <!--LANGUAGE SECTION-->
     <section class="language">
-        <!--<div class="languages">
+        <div class="lang1">
             <h3>Detected Language</h3>
-        </div>-->
+        </div>
+        <div class="lang2">
         <span>
-            <select name="target" class="drop"></select>
-            <select name="source" class="drop"></select>
+            <select name="target" class="drop" id="selectA">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+            </select>
+            
+            <select name="source" class="drop" id="selectB">
+                <option value="en">English</option>
+                <option value="es">Spanish</option>
+                <option value="fr">French</option>
+                <option value="de">German</option>
+            </select>
             
         </span>
+    </div>
     </section>
 
     <!--SEARCH-BOX SECTION-->
@@ -51,7 +64,7 @@
         <div id="babies">
             <div class="baby"></div>
             <div class="baby">
-                <button type="submit" id="submit">Submit</button>
+                <button type="button" id="submit">Submit</button>
             </div>
     </div>
     </form>
@@ -70,6 +83,6 @@
 
 
 
-    <script src="app.js"></script>
+    <script src="main2.js"></script>
 </body>
 </html>
