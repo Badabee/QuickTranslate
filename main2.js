@@ -2,7 +2,7 @@ const sourceInputElem = document.getElementById("texter");
 const sourceLangElem = document.getElementById("selectA");
 const targetLangElem = document.getElementById("selectB");
 const translateBtn = document.getElementById("submit");
-const resultsDiv = document.querySelector(".item2");
+const resultsDiv = document.querySelector(".item2A");
 const key = "AIzaSyDp27j-6ch9gnZVY6-4GwbvzLn-5TjqYEQ";
 
 

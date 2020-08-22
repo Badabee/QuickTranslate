@@ -240,6 +240,12 @@ span select {
         grid-column: 1/5;
         grid-row:  3/12;
     }
+
+     .item2A{
+        margin-top: 50%;
+        width: 50%;
+        font-size: 20px;
+    }
     
     .item3 {
         grid-column: 1/5;
