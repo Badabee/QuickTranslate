@@ -89,7 +89,6 @@ h2{
     border: 2px solid red;
 }
 
-
 .item1 span{
     display: inline-block;
     width: 80%;
@@ -141,6 +140,13 @@ span select {
     border-bottom-left-radius: 10px;
     background-color: #ededed;
 }
+
+.item2A{
+    margin: 10%;
+    width: 80%;
+    font-size: 50px;
+}
+
 
 .item2 {
     grid-column: 3/7;
@@ -209,21 +215,22 @@ span select {
 
     #texter{
         padding: 6% 40px;
-        border: 2px solid red;
+        border: 2px solid #7a83db;
     }
 
     .lang1 h3{
-        font-size: 15px;
+        display: none;
     }
 
     #selectA{
-        margin-left: -20%;
-        margin-top: 5%;
+        margin-left: -5%;
+        margin-top: 2%;
+        padding: 2%;
     }
     
     #selectB{
-        margin-top: -60%;
-        margin-left: 40%;
+        margin-bottom: -60%;
+        padding: 2%;
     }
 
     span select {
@@ -241,12 +248,6 @@ span select {
         grid-row:  3/12;
     }
 
-     .item2A{
-        margin-top: 50%;
-        width: 50%;
-        font-size: 20px;
-    }
-    
     .item3 {
         grid-column: 1/5;
         grid-row:   12/18;
