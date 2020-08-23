@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Nunito', sans-serif;
 }
 
 nav{
@@ -44,7 +45,7 @@ h2{
 .language{
     margin: auto;
     width: 80%;
-    background-color: #7a83db;
+    background-color: #707ad4;
     height: 8vh;
     display: grid;
 }
@@ -88,7 +89,17 @@ h2{
 
 #awesome{
     cursor: pointer;
-   position: initial;
+    position: initial;
+}
+
+.gang{
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.gang .gold{
+    height: 20px;
+    margin-left: -32px;
 }
 
 .item1 span{
@@ -98,7 +109,7 @@ h2{
     padding-bottom: none;
 }
 
-span select {
+.lang2 select {
     padding: 18px;
     color: #7a83db;
     background-color: white;
@@ -150,7 +161,7 @@ span select {
 
 
 .item2 {
-    grid-column: 3/8;
+    grid-column: 3/7;
     grid-row:  1/4;
     border-bottom-left-radius: 10px;
     background-color: #7a83db;
@@ -216,7 +227,7 @@ span select {
     }
 
     #texter{
-        padding: 6% 40px;
+        padding: 6% 50px;
         border: 2px solid #7a83db;
     }
 
@@ -224,20 +235,19 @@ span select {
         display: none;
     }
 
+    .lang2{
+        display: flex;
+    }
+
     #selectA{
-        margin-left: -5%;
-        margin-top: 2%;
-        padding: 2%;
+        margin-left: -6%;
+        width: 50%;
     }
     
     #selectB{
-        margin-bottom: -60%;
-        padding: 2%;
-    }
-
-    span select {
-       
-    }
+        margin-left: 5%;
+        width: 50%;
+    } 
 
     .item1 {
         grid-column: 1/5;
