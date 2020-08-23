@@ -52,5 +52,8 @@ function translate(text, source, target) {
         .then(data => langList(data.data.languages))
         .catch(err => console.log(err))
 })()
+
+//DICTIONARY API
+const url = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=your-api-key";
  
 
