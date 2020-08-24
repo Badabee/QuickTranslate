@@ -31,7 +31,7 @@ const getLanguages = async (data) => {
 translationForm.addEventListener("submit", async e => {
   e.preventDefault();
 
-  const translation = await translate(query, ....);
+  const translation = await translate(query, target, source);
   // Query textarea first
   textareaElement.innerText(translation);
 

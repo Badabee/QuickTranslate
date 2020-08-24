@@ -32,6 +32,7 @@ translateBtn.addEventListener('click', async ($event) => {
 });
 
 function translate(text, source, target) {
+    
     const url = `https://translation.googleapis.com/language/translate/v2?key=${key}`;
      const body = {
          q: text,
