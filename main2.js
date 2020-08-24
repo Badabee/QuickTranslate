@@ -12,8 +12,7 @@ function langList (languages) {
         const option = `<option value=${language.language}>${language.name}</option>`
         sourceLangElem.innerHTML += option;
         targetLangElem.innerHTML += option;
-    })
-
+    });
 }
 
 translateBtn.addEventListener('click', async ($event) => {
