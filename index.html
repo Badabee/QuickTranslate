@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
     <title>QuickTranslate</title>
 </head>
+
 <body>
-        <nav>
+    <nav>
         <h2 class="logo">QuickTranslate</h2>
     </nav>
 
@@ -16,9 +19,9 @@
         <div class="icons">
             <div class="icon">
                 <span>
-                <button id="text">Text</button>
-                <button id="document">Documents</button>
-            </span>
+                    <button id="text">Text</button>
+                    <button id="document">Documents</button>
+                </span>
             </div>
             <div class="icon">
                 <button id="history">History</button>
@@ -29,52 +32,42 @@
 
     <!--LANGUAGE SECTION-->
     <section class="language">
-        <!--<div class="languages">
+        <div class="lang1">
             <h3>Detected Language</h3>
-        </div>-->
-        <span>
-            <select name="target" class="drop" id="selectA">
-                <option value="en">English</option>
-                <option value="es">Spanish</option>
-                <option value="fr">French</option>
-                <option value="de">German</option>
-            </select>
-            
-            <select name="source" class="drop" id="selectB">
-                <option value="en">English</option>
-                <option value="es">Spanish</option>
-                <option value="fr">French</option>
-                <option value="de">German</option>
-            </select>
-            
-        </span>
+        </div>
+        <div class="lang2">
+                <select name="target" class="drop" id="selectA"></select>
+
+                <select name="source" class="drop" id="selectB"></select>
+        </div>
     </section>
 
     <!--SEARCH-BOX SECTION-->
     <section class="searchBox">
-     <div class="box">
-         <div class="item1">
-             <span>
-            <form id="forms" name="translation">
-                    <textarea name="query" id="texter"></textarea>
-           <button class="gold"><i id="awesome" class="fa fa-window-close"></i></button> 
-        </span>
-        <div id="babies">
-            <div class="baby"></div>
-            <div class="baby">
-                <button type="button" id="submit">Submit</button>
-            </div>
-    </div>
-    </form>
+        <div class="box">
+            <div class="item1">
+                <form id="forms" name="translation">
+                    <div class="gang">
+                        <textarea name="query" id="texter"></textarea>
+                        <button class="gold"><i id="awesome" class="fa fa-window-close"></i></button>
+                    </div>
 
-         </div>
-         <div class="item2">
-         </div>
-         <div class="item3">
-         </div>
-         <div class="item4">
-         </div>
-     </div>
+                    <div id="babies">
+                        <div class="baby">
+                            <button type="button" id="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="item2">
+                <h3 class="item2A"></h3>
+            </div>
+            <div class="item3">
+            </div>
+            <div class="item4">
+            </div>
+        </div>
     </section>
 
 
@@ -83,4 +76,5 @@
 
     <script src="main2.js"></script>
 </body>
+
 </html>
