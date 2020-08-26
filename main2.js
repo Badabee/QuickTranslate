@@ -54,6 +54,25 @@ function translate(text, source, target) {
 })()
 
 //DICTIONARY API
-const url = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=your-api-key";
+function dictionary() {
+    const url = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=81027104-8893-48ea-a529-d02ae4855353";
  
+    fetch(url, {method: 'POST' })
+        .then(res => res.json())
+        .then(data => meta.id, stems, syns)
+        .catch(err => console.log(err))
+
+        console.log(data);
+}
+
+
+// const getLanguages = async (data) => {
+//     const res = await fetch(`https://www.dictionaryapi.com/api/v3/references/collegiate/json/voluminous?key=81027104-8893-48ea-a529-d02ae4855353`);
+//     const data = await res.json();
+  
+//     return data;
+//   }
+//   getLanguages();
+
+
 
